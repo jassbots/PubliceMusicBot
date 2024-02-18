@@ -7,25 +7,25 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID","6435225")) # Get this value from my.telegram.org/apps
-API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d") # Get this value from my.telegram.org/apps
+API_ID = int(getenv("API_ID","27288008")) # Get this value from my.telegram.org/apps
+API_HASH = getenv("API_HASH","c5eae746d8e903fd9bf53752a96503b7") # Get this value from my.telegram.org/apps
 BOT_TOKEN = getenv("BOT_TOKEN") # Get your token from @BotFather on Telegram.
 MONGO_DB_URI = getenv("MONGO_DB_URI", None) # Get your mongo url from cloud.mongodb.com
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001840241140"))  # Chat id of a group for logging bot's activities/ Music Play Logs
-PUBLICELOGS = int(getenv("PUBLICELOGS", "-1001841879487")) # Chat id of a group for Bot Added Messege/Leaved Messege U can Add Your Support Group id Aslo
-GBANLOGS = int(getenv("GBANLOGS", "-1001841879487")) #Add Here Your Gbans Logs Channel Id 
-OWNER_ID = int(getenv("OWNER_ID", "5360305806")) # Get this value from @Sophia_x_MusicBot on Telegram by /id
-OWNER = int(getenv("OWNER","5360305806"))
-OWNER_USERNAME = getenv("OWNER_USERNAME","NEW_AMBOT")
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002139661881"))  # Chat id of a group for logging bot's activities/ Music Play Logs
+PUBLICELOGS = int(getenv("PUBLICELOGS", "-1002139661881")) # Chat id of a group for Bot Added Messege/Leaved Messege U can Add Your Support Group id Aslo
+GBANLOGS = int(getenv("GBANLOGS", "-1002139661881")) #Add Here Your Gbans Logs Channel Id 
+OWNER_ID = int(getenv("OWNER_ID", "6180225412")) # Get this value from @Sophia_x_MusicBot on Telegram by /id
+OWNER = int(getenv("OWNER","6180225412"))
+OWNER_USERNAME = getenv("OWNER_USERNAME","unknown_bande")
 ## Fill these variables if you're deploying on heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")# Your heroku app name
 HEROKU_API_KEY = getenv("HEROKU_API_KEY") # Get it from http://dashboard.heroku.com/account
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AbhiModszYT/PubliceMusicBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)# Fill this variable if your upstream repository is private
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Logs_Gban")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+z-zFH1Os1DVhMDE1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/unknown_bande")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/punjabiii_chat")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "900"))
